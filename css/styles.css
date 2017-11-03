@@ -1,9 +1,27 @@
 body {
   font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  background-color: firebrick;
 }
 
 .portfolio-image {
   max-width: 320px;
-  margin: 5px 10px auto;
+  margin: 15px 20px auto;
   box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 1.25em 0;
+}
+
+.header-links li {
+  background: slategrey;
+  margin: 10px 20px 10px -20px;
+  /*** User Agent Style Sheet showed a default 40px
+  margin left. Needed negative px value to offset. ***/
+}
+
+p {
+  padding: 5px 15px;
 }
