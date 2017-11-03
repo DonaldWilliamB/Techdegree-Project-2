@@ -12,7 +12,6 @@ body {
 
 li {
   list-style: none;
-  padding: 1.25em 0;
 }
 
 .header-links li {
@@ -20,8 +19,17 @@ li {
   margin: 10px 20px 10px -20px;
   /*** User Agent Style Sheet showed a default 40px
   margin left. Needed negative px value to offset. ***/
+  padding: 10px 10px;
 }
 
 p {
   padding: 5px 15px;
+}
+
+nav a {
+  padding: 5px 10px;
+}
+
+nav .footer-link {
+  display: inline-block;
 }
